@@ -88,7 +88,7 @@ while True:
 
     cv2.imshow("Controlador de medios", image)
 
-    # Cierra la ventana al precionar la barra espaciadora.
+    # Cierra la ventana al presionar la barra espaciadora.
     key = cv2.waitKey(1)
     if key == 32:
         break
